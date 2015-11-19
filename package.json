@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/joaojusto/falcon9",
   "devDependencies": {
+    "eslint": "^1.9.0",
     "mocha": "^2.3.4",
     "nodemon": "^1.8.1"
   }
