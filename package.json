@@ -1,37 +1,16 @@
 {
   "name": "falcon9",
+  "private": true,
   "version": "0.0.1",
-  "description": "Express and Postgres minimal boilerplate",
-  "main": "server.js",
+  "main": "falcon9.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha",
-    "start": "./node_modules/.bin/nodemon -w ./"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/joaojusto/falcon9"
-  },
-  "keywords": [
-    "kit",
-    "express",
-    "starter",
-    "boilerplate",
-    "postgres",
-    "sql",
-    "relational"
-  ],
-  "author": "João Justo",
-  "bugs": {
-    "url": "https://github.com/joaojusto/falcon9/issues"
+    "start": "meteor run",
+    "test": "meteor test-app --driver-package practicalmeteor:mocha"
   },
   "dependencies": {
-    "express": "^4.13.3",
-    "pg": "^4.4.3"
-  },
-  "homepage": "https://github.com/joaojusto/falcon9",
-  "devDependencies": {
-    "eslint": "^1.9.0",
-    "mocha": "^2.3.4",
-    "nodemon": "^1.8.1"
+    "meteor-node-stubs": "~0.2.0",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-mounter": "^1.1.0"
   }
 }
